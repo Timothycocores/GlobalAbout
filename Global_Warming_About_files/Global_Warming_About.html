@@ -6,16 +6,13 @@
 	<style>
 	body {
 		background-color: #D0D0D0; 
+		padding-bottom: 30px;
 	}
 
-	#navigation{
-		position: fixed;
-
-	}
 
 	#bannerImage {
 padding-left: 100px;
-padding-top: 20px;
+padding-top: 10px;
 
 }
 	body {
@@ -24,8 +21,21 @@ padding-top: 20px;
 		
 	}
 
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   text-align: center;
+}
+
+li {
+    display: inline;
+  text-align: center;
+}
+
 	#about {
 		font-family: times;
+
 	}
 	
   .centering-wrapper {
@@ -44,14 +54,10 @@ padding-top: 20px;
       }
       #why {
       	text-align: center;
+      	display: inline;
+
       }
 
-
-#button {
-	float: right;
-	padding-right: 25px;
-	padding-bottom: 10px;
-}
 #footer {
 	 position:fixed;
    left:0px;
@@ -66,12 +72,23 @@ padding-bottom: 15px;
 
 	<!-- End CSS -->
 <title>About Global Warming</title>
-<div id="bannerImage">
-<img src="http://www.beaufortrea.ca/wp-content/uploads/2011/03/homepage-banner-1.jpg">
-</div>
+
 	</head>
 
 	<BODY>
+		<ul>
+  <li><a href="#home">Home</a></li>
+  /
+  <li><a href="#news">News</a></li>
+  /
+  <li><a href="#contact">Contact</a></li>
+  /
+  <li><a href="#about">About</a></li>
+</ul>
+<hr>
+<div id="bannerImage">
+<img src="http://www.beaufortrea.ca/wp-content/uploads/2011/03/homepage-banner-1.jpg">
+</div>
 		<hr>
 		<div id="about">
 		<h1> Articles about Global Warming</h1>
@@ -81,9 +98,9 @@ padding-bottom: 15px;
         <div class="article">
           <a href="http://earthobservatory.nasa.gov/Features/GlobalWarming/page2.php">
           	<h2>Global Warming - NASA</h2></a>
-          <p>Throughout its long history, Earth has warmed and cooled time and again. Climate has changed when the planet received more or less sunlight due to subtle shifts in its orbit, as the atmosphere or surface changed, or when the Sun’s energy varied. But in the past century, another force has started to influence Earth’s climate: humanity
+          <p>Throughout its long history, Earth has warmed and cooled time and again. Climate has changed when the planet received more or less sunlight due to subtle shifts in its orbit, as the atmosphere or surface changed, or when the Sun’s energy varied. But in the past century, another force has started to influence Earth’s climate: humanity about.
           	<br>
-          	<center>Read Full Article</center>
+          	<center><a href="http://earthobservatory.nasa.gov/Features/GlobalWarming/page2.php">Read Full Article</a></center>
           </p>
         </div>
 
@@ -91,23 +108,9 @@ padding-bottom: 15px;
           <a href="http://www.scientificamerican.com/article/climate-scientists-helped-create-a-spurious-pause-in-global-warming/"><h2>Climate Scientists Helped Create a Spurious Pause in Global Warming</h2></a>
           <p>The world’s premier scientific body on the climate had found, in a 2013 report, that it is extremely likely (95 percent confidence) that human activities are responsible for most of the observed warming of global temperatures since 1951. The panel was more certain than it had ever been in the past.
           	<br>
-          	<center>Read Full Article</center>
+          	<center><a href="http://www.scientificamerican.com/article/climate-scientists-helped-create-a-spurious-pause-in-global-warming/">Read Full Article</a></center>
           </p>
         </div>
-
-        <div class="article">
-          <a href="article.html"><h2>Article</h2></a>
-          <p>paragraph 3</p>
-        </div>
-
-        <div class="article">
-          <a href="article.html"><h2>Article</h2></a>
-          <p>paragraph 4</p>
-        </div>
-
-        <div class="article">
-          <a href="article.html"><h2>Article</h2></a>
-          <p>paragraph 5</p>
         </div>
       </div
       <div id="why">
@@ -120,9 +123,6 @@ padding-bottom: 15px;
         </div>
       </div>
     </div>
-</div>
-</div>
-</div>
     <br>
 	</BODY>
 	<footer>
